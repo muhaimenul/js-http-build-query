@@ -10,7 +10,7 @@ $ npm install js-http-build-query
 ## Usage:
 
 ```javascript
-import http_build_query from 'js-http-build-query'
+const http_build_query = require('js-http-build-query')
 
 // Simple object
 let data = {
