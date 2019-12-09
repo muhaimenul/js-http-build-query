@@ -1,5 +1,5 @@
 module.exports = (data) => {
-    if (typeof (data) === 'string' || typeof (data) === 'undefined' || typeof (data) === 'object') return data
+    if (typeof (data) === 'string' || typeof (data) === 'undefined' || typeof (data) !== 'object') return data
     
     let query = []
     
