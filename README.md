@@ -4,7 +4,7 @@ A simple JavaScript package to generate HTTP Query String
 ## Installation:
 
 ```sh
-$ npm install js-http-build-query
+$ npm i js-http-build-query
 ```
 
 ## Usage:

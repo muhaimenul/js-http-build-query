@@ -15,12 +15,17 @@
     "url",
     "query",
     "parameter",
-    "request"
+    "request",
+    "string"
   ],
-  "author": "Muhaimenul Islam",
+  "author": "Muhaimenul Islam <i.muhaimen@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/muhaimenul/js-http-build-query/issues"
+    "url": "https://github.com/muhaimenul/js-http-build-query/issues",
+    "email": "i.muhaimen@gmail.com"
   },
-  "homepage": "https://github.com/muhaimenul/js-http-build-query#readme"
+  "homepage": "https://github.com/muhaimenul/js-http-build-query#readme",
+  "engines": {
+    "node": ">=6.0.0"
+  }
 }
