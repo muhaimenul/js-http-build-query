@@ -24,8 +24,5 @@
     "url": "https://github.com/muhaimenul/js-http-build-query/issues",
     "email": "i.muhaimen@gmail.com"
   },
-  "homepage": "https://github.com/muhaimenul/js-http-build-query#readme",
-  "engines": {
-    "node": ">=6.0.0"
-  }
+  "homepage": "https://github.com/muhaimenul/js-http-build-query#readme"
 }
