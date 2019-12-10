@@ -17,9 +17,9 @@ let data = {
   roll: 143,
   message: 'hello world',
   url: 'https://example.com'
-};
+}
 
-http_build_query(data); // roll=143&message=world&url=https://example.com
+http_build_query(data) // roll=143&message=world&url=https://example.com
 ```
 
 ## Contributing
