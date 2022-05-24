@@ -1,7 +1,7 @@
 {
   "name": "js-http-build-query",
-  "version": "1.0.0",
-  "description": "A JavaScript package to build http query string.",
+  "version": "1.0.2",
+  "description": "A JavaScript package to build URL-encoded http query string.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,9 +14,10 @@
     "http",
     "url",
     "query",
-    "parameter",
+    "string",
     "request",
-    "string"
+    "parameter",
+    "URL-encode"
   ],
   "author": "Muhaimenul Islam <i.muhaimen@gmail.com>",
   "license": "MIT",
