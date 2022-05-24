@@ -4,7 +4,7 @@
   "description": "A JavaScript package to build URL-encoded http query string.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,9 @@
     "url": "https://github.com/muhaimenul/js-http-build-query/issues",
     "email": "i.muhaimen@gmail.com"
   },
-  "homepage": "https://github.com/muhaimenul/js-http-build-query#readme"
+  "homepage": "https://github.com/muhaimenul/js-http-build-query#readme",
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0"
+  }
 }
