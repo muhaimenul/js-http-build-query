@@ -6,7 +6,7 @@
 
 A simple JavaScript package to generate URL-encoded HTTP Query String. Just create a object using query parameters and their values, and pass the object through this module to build query string (like `http_build_query()` in php).
 
-    ## Installation:
+## Installation:
 
 ```bash
 $ npm i js-http-build-query
@@ -28,11 +28,11 @@ http_build_query(data) // roll=143&message=world&url=https://example.com
 
 
 let complexData = {
-    foo: "bar",
-    items: {
-    	salt: "suger",
-			quantity: [2, 3, 4]
-    }
+  foo: "bar",
+  items: {
+      salt: "suger",
+      quantity: [2, 3, 4]
+   }
 }
 
 http_build_query(complexData) // foo=bar&items[salt]=suger&items[quantity][0]=2&items[quantity][1]=3&items[quantity][2]=4
@@ -40,7 +40,7 @@ http_build_query(complexData) // foo=bar&items[salt]=suger&items[quantity][0]=2&
 
 ## Contributing
 
-    [Muhaimenul Islam](https://github.com/muhaimenul)
+[Muhaimenul Islam](https://github.com/muhaimenul)
 
 ## Security Vulnerabilities
 
