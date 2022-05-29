@@ -1,6 +1,6 @@
 /**
  * Generate URL-encoded query string
- * @param {Object} data Current year
+ * @param {Object} data Object of query params
  * @param {string|undefined|null} [prefix] Optional prefix query string
  * @returns {string} Built query string
  */
